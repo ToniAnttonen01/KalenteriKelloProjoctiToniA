@@ -29,11 +29,11 @@
         private void InitializeComponent()
         {
             this.panelMenu = new System.Windows.Forms.Panel();
-            this.panelLogo = new System.Windows.Forms.Panel();
-            this.btnClock = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
+            this.btnClock = new System.Windows.Forms.Button();
+            this.panelLogo = new System.Windows.Forms.Panel();
             this.panelMenu.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -47,60 +47,10 @@
             this.panelMenu.Controls.Add(this.panelLogo);
             this.panelMenu.Dock = System.Windows.Forms.DockStyle.Left;
             this.panelMenu.Location = new System.Drawing.Point(0, 0);
+            this.panelMenu.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panelMenu.Name = "panelMenu";
-            this.panelMenu.Size = new System.Drawing.Size(201, 498);
+            this.panelMenu.Size = new System.Drawing.Size(268, 613);
             this.panelMenu.TabIndex = 0;
-            // 
-            // panelLogo
-            // 
-            this.panelLogo.BackColor = System.Drawing.Color.Maroon;
-            this.panelLogo.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panelLogo.Location = new System.Drawing.Point(0, 0);
-            this.panelLogo.Name = "panelLogo";
-            this.panelLogo.Size = new System.Drawing.Size(201, 70);
-            this.panelLogo.TabIndex = 0;
-            // 
-            // btnClock
-            // 
-            this.btnClock.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnClock.FlatAppearance.BorderSize = 0;
-            this.btnClock.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnClock.ForeColor = System.Drawing.Color.Gainsboro;
-            this.btnClock.Location = new System.Drawing.Point(0, 70);
-            this.btnClock.Name = "btnClock";
-            this.btnClock.Size = new System.Drawing.Size(201, 54);
-            this.btnClock.TabIndex = 1;
-            this.btnClock.Text = "Clock";
-            this.btnClock.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnClock.UseVisualStyleBackColor = true;
-            // 
-            // button1
-            // 
-            this.button1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.button1.FlatAppearance.BorderSize = 0;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.ForeColor = System.Drawing.Color.Gainsboro;
-            this.button1.Location = new System.Drawing.Point(0, 124);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(201, 54);
-            this.button1.TabIndex = 2;
-            this.button1.Text = "Video kohta 2:24";
-            this.button1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button1.UseVisualStyleBackColor = true;
-            // 
-            // button2
-            // 
-            this.button2.Dock = System.Windows.Forms.DockStyle.Top;
-            this.button2.FlatAppearance.BorderSize = 0;
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.ForeColor = System.Drawing.Color.Gainsboro;
-            this.button2.Location = new System.Drawing.Point(0, 178);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(201, 54);
-            this.button2.TabIndex = 3;
-            this.button2.Text = "Clock";
-            this.button2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button2.UseVisualStyleBackColor = true;
             // 
             // button3
             // 
@@ -108,21 +58,83 @@
             this.button3.FlatAppearance.BorderSize = 0;
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button3.ForeColor = System.Drawing.Color.Gainsboro;
-            this.button3.Location = new System.Drawing.Point(0, 232);
+            this.button3.Location = new System.Drawing.Point(0, 284);
+            this.button3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(201, 54);
+            this.button3.Padding = new System.Windows.Forms.Padding(12, 0, 0, 0);
+            this.button3.Size = new System.Drawing.Size(268, 66);
             this.button3.TabIndex = 4;
             this.button3.Text = "Clock";
             this.button3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button3.UseVisualStyleBackColor = true;
             // 
+            // button2
+            // 
+            this.button2.Dock = System.Windows.Forms.DockStyle.Top;
+            this.button2.FlatAppearance.BorderSize = 0;
+            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button2.ForeColor = System.Drawing.Color.Gainsboro;
+            this.button2.Location = new System.Drawing.Point(0, 218);
+            this.button2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button2.Name = "button2";
+            this.button2.Padding = new System.Windows.Forms.Padding(12, 0, 0, 0);
+            this.button2.Size = new System.Drawing.Size(268, 66);
+            this.button2.TabIndex = 3;
+            this.button2.Text = "Clock";
+            this.button2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button2.UseVisualStyleBackColor = true;
+            // 
+            // button1
+            // 
+            this.button1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.button1.FlatAppearance.BorderSize = 0;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.ForeColor = System.Drawing.Color.Gainsboro;
+            this.button1.Location = new System.Drawing.Point(0, 152);
+            this.button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button1.Name = "button1";
+            this.button1.Padding = new System.Windows.Forms.Padding(12, 0, 0, 0);
+            this.button1.Size = new System.Drawing.Size(268, 66);
+            this.button1.TabIndex = 2;
+            this.button1.Text = "Video kohta 3:32";
+            this.button1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button1.UseVisualStyleBackColor = true;
+            // 
+            // btnClock
+            // 
+            this.btnClock.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnClock.FlatAppearance.BorderSize = 0;
+            this.btnClock.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnClock.ForeColor = System.Drawing.Color.Gainsboro;
+            this.btnClock.Location = new System.Drawing.Point(0, 86);
+            this.btnClock.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnClock.Name = "btnClock";
+            this.btnClock.Padding = new System.Windows.Forms.Padding(12, 0, 0, 0);
+            this.btnClock.Size = new System.Drawing.Size(268, 66);
+            this.btnClock.TabIndex = 1;
+            this.btnClock.Text = "Clock";
+            this.btnClock.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnClock.UseVisualStyleBackColor = true;
+            // 
+            // panelLogo
+            // 
+            this.panelLogo.BackColor = System.Drawing.Color.Maroon;
+            this.panelLogo.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panelLogo.Location = new System.Drawing.Point(0, 0);
+            this.panelLogo.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panelLogo.Name = "panelLogo";
+            this.panelLogo.Padding = new System.Windows.Forms.Padding(12, 0, 0, 0);
+            this.panelLogo.Size = new System.Drawing.Size(268, 86);
+            this.panelLogo.TabIndex = 0;
+            // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Indigo;
-            this.ClientSize = new System.Drawing.Size(892, 498);
+            this.ClientSize = new System.Drawing.Size(1189, 613);
             this.Controls.Add(this.panelMenu);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Form1";
             this.Text = "Form1";
             this.panelMenu.ResumeLayout(false);
