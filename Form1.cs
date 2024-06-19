@@ -16,6 +16,7 @@ namespace KalenteriKelloProjoctiToniA
         private Button currentButton;
         private Random random;
         private int tempIndex;
+        private Form activeForm;
 
         public Form1()
         {
@@ -48,7 +49,7 @@ namespace KalenteriKelloProjoctiToniA
                     currentButton.ForeColor = Color.White;
                     currentButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
                     panelTitleBar.BackColor = color;
-                    panelLogo.BackColor
+                    panelLogo.BackColor = ThemeColor.ChangeColorBrightness(color, -0.3);
                 }
             }
         }
@@ -66,24 +67,45 @@ namespace KalenteriKelloProjoctiToniA
             }
         }
 
+
+        private void OpenChildForm(Form childForm, object btnSender)
+        {
+            if (activeForm != null)
+            {
+                activeForm.Close();
+            }
+            ActivateButton(btnSender);
+            activeForm = childForm;
+            childForm.TopLevel = false;
+            childForm.FormBorderStyle = FormBorderStyle.None;
+            childForm.Dock = DockStyle.Fill;
+            this.panelDesktopPane.Controls.Add(childForm);
+            this.panelDesktopPane.Tag = childForm;
+            childForm.BringToFront();
+            childForm.Show();
+            lblTitle.Text = childForm.Text;
+
+        }
+
+
         private void btnClock_Click(object sender, EventArgs e)
         {
-            ActivateButton(sender);
+            OpenChildForm(new Forms.FormClock(), sender);
         }
 
         private void btnCalendar_Click(object sender, EventArgs e)
         {
-            ActivateButton(sender);
+            OpenChildForm(new Forms.FormCalendar(), sender);
         }
 
         private void btnCalculator_Click(object sender, EventArgs e)
         {
-            ActivateButton(sender);
+            OpenChildForm(new Forms.FormCalculator(), sender);
         }
 
         private void btnNotepad_Click(object sender, EventArgs e)
         {
-            ActivateButton(sender);
+            OpenChildForm(new Forms.FormNotepad(), sender);
         }
     }
 }
