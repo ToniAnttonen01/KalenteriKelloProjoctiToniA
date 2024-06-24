@@ -10,7 +10,7 @@ using System.Windows.Forms;
 
 namespace KalenteriKelloProjoctiToniA.Forms
 {
-    public partial class FormCalendar : Form
+    public partial class FormCalendar : System.Windows.Forms.Form
     {
         public FormCalendar()
         {

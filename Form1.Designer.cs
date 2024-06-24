@@ -68,7 +68,7 @@
             this.btnNotepad.Padding = new System.Windows.Forms.Padding(9, 0, 0, 0);
             this.btnNotepad.Size = new System.Drawing.Size(201, 54);
             this.btnNotepad.TabIndex = 4;
-            this.btnNotepad.Text = "Notepad";
+            this.btnNotepad.Text = "Notepad videon kohta  2:15";
             this.btnNotepad.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnNotepad.UseVisualStyleBackColor = true;
             this.btnNotepad.Click += new System.EventHandler(this.btnNotepad_Click);
@@ -100,7 +100,7 @@
             this.btnCalendar.Padding = new System.Windows.Forms.Padding(9, 0, 0, 0);
             this.btnCalendar.Size = new System.Drawing.Size(201, 54);
             this.btnCalendar.TabIndex = 2;
-            this.btnCalendar.Text = "Video kohta 17:49 Calendar";
+            this.btnCalendar.Text = "Video kohta 19:45 Calendar";
             this.btnCalendar.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnCalendar.UseVisualStyleBackColor = true;
             this.btnCalendar.Click += new System.EventHandler(this.btnCalendar_Click);
@@ -184,7 +184,7 @@
             this.Controls.Add(this.panelMenu);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Home";
             this.panelMenu.ResumeLayout(false);
             this.panelLogo.ResumeLayout(false);
             this.panelLogo.PerformLayout();

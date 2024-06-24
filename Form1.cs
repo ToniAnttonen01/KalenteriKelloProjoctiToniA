@@ -10,13 +10,13 @@ using System.Windows.Forms;
 
 namespace KalenteriKelloProjoctiToniA
 {
-    public partial class Form1 : Form
+    public partial class Form1 : System.Windows.Forms.Form
     {
 
         private Button currentButton;
         private Random random;
         private int tempIndex;
-        private Form activeForm;
+        private System.Windows.Forms.Form activeForm;
 
         public Form1()
         {
@@ -50,6 +50,8 @@ namespace KalenteriKelloProjoctiToniA
                     currentButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
                     panelTitleBar.BackColor = color;
                     panelLogo.BackColor = ThemeColor.ChangeColorBrightness(color, -0.3);
+                    ThemeColor.PrimaryColor = color;
+                    ThemeColor.SecondaryColor = ThemeColor.ChangeColorBrightness(color, -0.3);
                 }
             }
         }
@@ -68,7 +70,7 @@ namespace KalenteriKelloProjoctiToniA
         }
 
 
-        private void OpenChildForm(Form childForm, object btnSender)
+        private void OpenChildForm(System.Windows.Forms.Form childForm, object btnSender)
         {
             if (activeForm != null)
             {
