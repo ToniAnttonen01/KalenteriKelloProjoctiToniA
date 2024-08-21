@@ -76,6 +76,12 @@
     <Compile Include="Forms\FormNotepad.Designer.cs">
       <DependentUpon>FormNotepad.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forms\ucDayrs.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\ucDayrs.Designer.cs">
+      <DependentUpon>ucDayrs.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ThemeColor.cs" />

@@ -68,7 +68,7 @@
             this.btnNotepad.Padding = new System.Windows.Forms.Padding(9, 0, 0, 0);
             this.btnNotepad.Size = new System.Drawing.Size(201, 54);
             this.btnNotepad.TabIndex = 4;
-            this.btnNotepad.Text = "Notepad videon kohta  2:15";
+            this.btnNotepad.Text = "Notepad";
             this.btnNotepad.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnNotepad.UseVisualStyleBackColor = true;
             this.btnNotepad.Click += new System.EventHandler(this.btnNotepad_Click);

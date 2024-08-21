@@ -15,7 +15,10 @@ namespace KalenteriKelloProjoctiToniA.Forms
         public FormClock()
         {
             InitializeComponent();
+           
         }
+
+
 
         private void FormClock_Load(object sender, EventArgs e)
         {
@@ -26,5 +29,6 @@ namespace KalenteriKelloProjoctiToniA.Forms
         {
             clockLabel.Text = DateTime.Now.ToString("hh:mm:ss");
         }
+
     }
 }
