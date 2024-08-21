@@ -84,7 +84,7 @@
             this.btnCalculator.Padding = new System.Windows.Forms.Padding(9, 0, 0, 0);
             this.btnCalculator.Size = new System.Drawing.Size(201, 54);
             this.btnCalculator.TabIndex = 3;
-            this.btnCalculator.Text = "Calculator";
+            this.btnCalculator.Text = "Calculator calendar video  4:20";
             this.btnCalculator.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnCalculator.UseVisualStyleBackColor = true;
             this.btnCalculator.Click += new System.EventHandler(this.btnCalculator_Click);

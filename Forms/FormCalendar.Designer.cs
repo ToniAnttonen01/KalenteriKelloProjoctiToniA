@@ -241,6 +241,7 @@
             this.Controls.Add(this.flowLayoutPanel1);
             this.Name = "FormCalendar";
             this.Text = "Calendar";
+            this.Load += new System.EventHandler(this.FormCalendar_Load);
             this.flowLayoutPanel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();

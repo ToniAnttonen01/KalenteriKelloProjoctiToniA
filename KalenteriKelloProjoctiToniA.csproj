@@ -100,6 +100,9 @@
     <EmbeddedResource Include="Forms\FormNotepad.resx">
       <DependentUpon>FormNotepad.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ucDayrs.resx">
+      <DependentUpon>ucDayrs.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
