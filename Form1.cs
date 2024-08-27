@@ -22,6 +22,7 @@ namespace KalenteriKelloProjoctiToniA
         {
             InitializeComponent();
             random = new Random();
+            btnCloseChildForm.Visible = false;
         }
 
         private Color SelectThemeColor()
@@ -52,6 +53,7 @@ namespace KalenteriKelloProjoctiToniA
                     panelLogo.BackColor = ThemeColor.ChangeColorBrightness(color, -0.3);
                     ThemeColor.PrimaryColor = color;
                     ThemeColor.SecondaryColor = ThemeColor.ChangeColorBrightness(color, -0.3);
+                    btnCloseChildForm.Visible = true;
                 }
             }
         }
@@ -108,6 +110,23 @@ namespace KalenteriKelloProjoctiToniA
         private void btnNotepad_Click(object sender, EventArgs e)
         {
             OpenChildForm(new Forms.FormNotepad(), sender);
+        }
+
+        private void btnCloseChildForm_Click(object sender, EventArgs e)
+        {
+            if(activeForm != null)
+                activeForm.Close();
+            Reset();
+        }
+
+        private void Reset()
+        {
+            DisableButton();
+            lblTitle.Text = "HOME";
+            panelTitleBar.BackColor = Color.DarkRed;
+            panelLogo.BackColor = Color.DarkRed;
+            currentButton = null;
+            btnCloseChildForm.Visible = false;
         }
     }
 }
