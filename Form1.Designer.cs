@@ -101,7 +101,7 @@
             this.btnCalendar.Padding = new System.Windows.Forms.Padding(9, 0, 0, 0);
             this.btnCalendar.Size = new System.Drawing.Size(201, 54);
             this.btnCalendar.TabIndex = 2;
-            this.btnCalendar.Text = "Video kohta 19:45 Calendar";
+            this.btnCalendar.Text = "Videon kohta 23:43 Calendar";
             this.btnCalendar.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnCalendar.UseVisualStyleBackColor = true;
             this.btnCalendar.Click += new System.EventHandler(this.btnCalendar_Click);
