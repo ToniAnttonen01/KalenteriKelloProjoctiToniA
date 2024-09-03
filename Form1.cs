@@ -23,6 +23,7 @@ namespace KalenteriKelloProjoctiToniA
             InitializeComponent();
             random = new Random();
             btnCloseChildForm.Visible = false;
+            
         }
 
         private Color SelectThemeColor()
